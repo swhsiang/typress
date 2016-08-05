@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "removeComments": false,
+        "outDir": "lib"
+    },
+    "exclude": [
+        "node_modules",
+        "**/.git",
+        "**/.DS_Store",
+        "source/**/*.js",
+        "tests/**/*.js"
+    ],
+    "files": [
+        "typings/index.d.ts",
+        "src/index.ts",
+        "tests/index.ts"
+    ]
+}

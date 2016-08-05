@@ -1,0 +1,41 @@
+{
+  "name": "typress",
+  "version": "0.0.5",
+  "description": "typescript start kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha -c -R spec --bail --require ts-node/register tests/*.ts ",
+    "start": "NODE_ENV=default node lib/src/index.js",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "jscs": "jscs --fix .",
+    "dev": "NODE_ENV=dev node lib/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swhsiang/typress.git"
+  },
+  "keywords": [
+    "typescript",
+    "express",
+    "tslint",
+    "jscs",
+    "sequelize",
+    "pm2"
+  ],
+  "author": "swh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swhsiang/typress/issues"
+  },
+  "homepage": "https://github.com/swhsiang/typress#readme",
+  "dependencies": {
+    "bluebird": "3.4.1",
+    "express": "4.14.0",
+    "sequelize": "3.23.6"
+  },
+  "devDependencies": {
+    "should": "10.0.0",
+    "typescript-eslint-parser": "0.1.0-alpha-1",
+    "typescript-require": "0.2.9-1"
+  }
+}
