@@ -11,8 +11,9 @@
         "node_modules",
         "**/.git",
         "**/.DS_Store",
-        "source/**/*.js",
-        "tests/**/*.js"
+        "src/**/*.js",
+        "tests/**/*.js",
+        "lib/*"
     ],
     "files": [
         "typings/index.d.ts",
