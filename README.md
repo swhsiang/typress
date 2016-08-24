@@ -1,5 +1,6 @@
 # Typress
 [![Build Status](https://travis-ci.org/swhsiang/typress.svg?branch=master)](https://travis-ci.org/swhsiang/typress)
+## NOTE! Not fully works.
 
 Typescript + Express + bluebird + sequelize + [pm2](http://pm2.keymetrics.io/)
 
@@ -41,3 +42,5 @@ support by
 [Awesome Typescript](https://github.com/dzharii/awesome-typescript)
 [TypeScript Basic Learning](https://github.com/sjshank/TypeScript-Basic-Learning)
 [TypeScript Handbook](https://github.com/Microsoft/TypeScript-Handbook/)
+https://github.com/Microsoft/TypeScript-Handbook/blob/master/pages/Declaration%20Merging.md
+https://github.com/sjshank/TypeScript-Basic-Learning/blob/master/Class/class.ts
